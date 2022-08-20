@@ -1,0 +1,84 @@
+body {
+    color:purple;
+    background-color:rgba(4, 4, 4, 0.86);
+    margin:30px;
+    font-family:serif, "Arial", "Calibri";
+    ;
+}
+
+#title {
+    text-align: center;
+}
+
+#title p {
+    color:white;
+}
+
+
+.container1 {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container2 {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.card {
+    border:2px white dashed;
+    padding: 15px;
+    margin: 10px 20px 20px 0;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 400px;
+    min-height: 350px;
+}
+
+
+
+.card header {
+    border: 2px white solid;
+    border-radius: 10px;
+    width:40%; 
+    font-size: 20px;
+    padding: 5px;
+    
+}
+
+/* this is to overlay the header
+     position:relative;
+    margin-top: -20px;
+*/
+
+.info {
+    
+    color:white;
+    background-color:blueviolet;
+    border-radius: 10px;
+    width:100%;
+}
+
+/* add gradient to background image in .info 
+
+background-image: linear
+    gradient(
+        rgba(232, 102, 236, 0.3) 0%,
+        rgba(232, 102, 236, 0.6) 100%
+    );
+    }
+       
+*/
+
+footer {
+    text-align: center;
+}
